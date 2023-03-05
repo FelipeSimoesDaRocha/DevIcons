@@ -1,0 +1,28 @@
+{
+  "name": "DevIcons",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Felipe simões da rocha",
+    "email": "felipe.simoesdarocha@gmail.com",
+    "url": "https://felipe-rocha.vercel.app/"
+  },
+  "main": "devicon.min.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "homepage": "https://github.com/FelipeSimoesDaRocha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FelipeSimoesDaRocha/DevIcons"
+  },
+  "description": "Programming related icons collection",
+  "keywords": [
+    "programming",
+    "icons",
+    "svg",
+    "font"
+  ],
+  "license": "MIT"
+}
