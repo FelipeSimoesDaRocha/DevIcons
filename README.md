@@ -49,14 +49,16 @@ yarn add devicon
 <h4>Você também pode usar a <code>img</code> e referenciar um svg diretamente do repositório.</h4>
 
 ```html
+
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg'>
+
 ```
 
 <h2 id="request-icon">ícone de solicitação</h2>
 <p> Quando você quiser solicitar um ícone, sinta-se à vontade para criar um problema.</p>
 
 <h2 id="contribute">Contribuindo</h2>
-<p> Ficamos felizes com cada contribuição.</p>
+<p> Fico feliz com cada contribuição.</p>
 
 <h2 id="discord-server">Discord</h2>
 <p>Estou sempre em um servidor Discord. Você pode iniciar uma conversa no canal
