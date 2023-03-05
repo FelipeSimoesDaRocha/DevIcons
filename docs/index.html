@@ -45,40 +45,40 @@
 
   <div class="container">
     <header class="clearfix">
-      <h1>Devicon <span><a href="https://github.com/devicons/devicon/releases">{{ latestReleaseTagging }}</a></span>
+      <h1>Devicon <span><a href="https://github.com/FelipeSimoesDaRocha/DevIcons/releases">{{ latestReleaseTagging
+            }}</a></span>
       </h1>
-      <h5>First select an icon on the right, then select the version below and copy/paste the code into your project.
+      <h5>
+        Primeiro selecione um ícone à direita, depois selecione a versão abaixo e copie/cole o código em seu projeto.
       </h5>
+
       <ul>
         <li>
           <h4>
-            Font versions
+            Versões de fonte
             <span>
               <img src="./assets/img/color_wheel.png" class='colorPicker'
                 ng-click="toggleColorPickerMenu('fontColorPickerMenu')">
               <span class='colorPickerMenu' id='fontColorPickerMenu'>
                 <div>
                   <input type='color' value='#60be86' ng-model="fontBackground">
-                  Background Color
-                </div>
-                <div>
-                  <input type='checkbox' id='checkboardInputFont' class='checkerboardInput'
-                    ng-model="fontDisplayCheckerboard">
-                  <label for='checkboardInputFont'>Checkerboard</label>
+                  Cor de fundo
                 </div>
                 <button class='colorPickerBtn' ng-click="toggleColorPickerMenu('fontColorPickerMenu')">Close</button>
                 <button class='colorPickerBtn'
-                  ng-click="fontBackground = DEFAULT_BACKGROUND; fontDisplayCheckerboard=0; toggleColorPickerMenu('fontColorPickerMenu')">Reset</button>
+                  ng-click="fontBackground = DEFAULT_BACKGROUND; fontDisplayCheckerboard=visible; toggleColorPickerMenu('fontColorPickerMenu')">Reset</button>
               </span>
             </span>
           </h4>
+
           <p>
-            Place this in your header (once per HTML file)
+            Coloque isso no seu cabeçalho (uma vez por arquivo HTML)
             <span>
               <img src="./assets/img/copy.svg" class='copyBtn' ng-click="copyToClipboard($event, 'headerLinkCode')">
               <span class='tooltip'></span>
             </span>
           </p>
+
           <div class="cde" id='headerLinkCode'>
             &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@{{ latestReleaseTagging
             }}/devicon.min.css"&gt;
@@ -102,6 +102,7 @@
               </li>
             </div>
           </ul>
+          
           <p>
             Place this in your body
             <span>
@@ -113,10 +114,9 @@
             &lt;i class="devicon-{{selectedIcon.name}}-{{selectedFontIcon}}<span ng-if="colored">
               colored</span>"&gt;&lt;/i&gt;<br />
           </div>
-        </li>
-        <li>
+
           <h4>
-            SVG versions
+            Versões SVG
             <span>
               <img src="./assets/img/color_wheel.png" class='colorPicker'
                 ng-click="toggleColorPickerMenu('svgColorPickerMenu')">
@@ -124,11 +124,6 @@
                 <div>
                   <input type='color' value='#60be86' ng-model="svgBackground">
                   Background Color
-                </div>
-                <div>
-                  <input type='checkbox' id='checkboardInputSvg' class='checkerboardInput'
-                    ng-model="svgDisplayCheckerboard">
-                  <label for='checkboardInputSvg'>Checkerboard</label>
                 </div>
                 <button class='colorPickerBtn' ng-click="toggleColorPickerMenu('svgColorPickerMenu')">Close</button>
                 <button class='colorPickerBtn'
@@ -147,7 +142,7 @@
             </li>
           </ul>
           <p>
-            Using &lt;img&gt; element
+            Usando o elemento &lt;img&gt;
             <span>
               <img src="./assets/img/copy.svg" class='copyBtn' ng-click="copyToClipboard($event, 'imgCode')">
               <span class='tooltip'></span>
@@ -161,7 +156,7 @@
 
 
           <p>
-            Using Pure SVG
+            Usando SVG puro
             <span>
               <img src="./assets/img/copy.svg" class='copyBtn' ng-click="copyToClipboard($event, 'svgCode')">
               <span class='tooltip'></span>
@@ -188,7 +183,7 @@
             class="devicon-github-original"></i>CONTRIBUTE</a>
       </p>
       <p class="buttonLink">
-        <a href="https://discord.gg/hScy8KWACQ" target="blank"><i class="discord-logo"></i>DISCORD SERVER</a>
+        <a href="https://di'scord.gg/hScy8KWACQ" target="blank"><i class="discord-logo"></i>DISCORD SERVER</a>
       </p> -->
 
       <footer>
@@ -205,7 +200,6 @@
     </header>
 
     <div class="main">
-
       <div class="search">
         <input type="text" placeholder="Search for icons" ng-model="search">
       </div>

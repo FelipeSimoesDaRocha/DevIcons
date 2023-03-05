@@ -419,16 +419,6 @@ header .icons-list img {
   background-color: var(--grey);
 }
 
-.checkerboardInput {
-  width: 1.25em;
-  height: 1.25em;
-  position: relative;
-  top: 0.2em;
-}
-
-.checkerboardInput:hover {
-  cursor: pointer;
-}
 
 input[type="color"] {
   width: 1.25em;
